@@ -10,10 +10,8 @@ https://github.com/JaviRG30/UR5_color_pick_and_place/assets/149961441/05b9753e-0
 ### Prerequisites
 Now, I'm going to present the tools in which it has been tested that this project works
 - Ubuntu 18.04 LTS
-- ROS Melodic
-
- To obtain this version of ROS, you can follow the instructuions that are on the following link: https://wiki.ros.org/melodic/Installation/Ubuntu  
- I would recommend carying out the Desktop-Full install in order to obtain all the necessary tools.
+- ROS Melodic: &nbsp;&nbsp;To obtain this version of ROS, you can follow the instructuions that are on the following link, https://wiki.ros.org/melodic/Installation/Ubuntu  
+        I would recommend carying out the Desktop-Full install in order to obtain all the necessary tools.
 - Python version == 2.7
 - OpenCV version == 4.2.0.32
 - Pynput version == 1.4
