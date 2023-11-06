@@ -30,22 +30,20 @@ Now, to obtain the repository in your workspace, you need to run the following c
 At this point, you have already obtained the project files in your workspace.
 
 ---
-### Exectution
-1) To launch the GAZEBO simulation, you have to execute the following command.
+### Execution
+1) First, we will launch the GAZEBO simulation. To do this we will run the 'demo_gazebo.launch' file located into the 'ur5_gripper_moveit_config' MoveIt package. This file combines the UR5 robot model with the gripper model.
 ```
 >> roslaunch ur5_gripper_moveit_config demo_gazebo.launch 
 ```
-This command launches a file of MoveIt package that combines the UR5 robot model with the gripper model.
 
-
-2) To run the program that classifies the objects by color, you need to run the following command.
+2) To run the program that classifies the objects by color, you need to run the following command. When you run this command, the robot should start performing the pick and place, organizing the cubes by their colors
 ```
 >> rosrun ur5_simple_pick_and_place mov_fmpiec_colores.py 
 ```
-When you run this command, the robot should start performing the pick and place, organizing the cubes by their colors
-
 
 3) In addition, with rhis repository we can also run a manual mode, wich allows us to move the robot with various operating modes.
 ```
 >> rosrun ur5_simple_pick_and_place manual_controller.py
 ```
+
+---
