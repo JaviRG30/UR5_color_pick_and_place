@@ -22,7 +22,7 @@ I will assi,e that your workspace is created in $HOME/catkin_ws and the source s
 Now, to obtain the repository in your workspace, you need to run the following commands:
 ```
 >> cd $HOME/catkin_ws/src
->> git clone https://github.com/JaviRG30/UR5_color_pick_and_place.gi
+>> git clone https://github.com/JaviRG30/UR5_color_pick_and_place.git
 >> cd ..
 >> catkin_make
 >> source $HOME/catkin_ws/devel/setup.bash
