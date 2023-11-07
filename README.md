@@ -18,7 +18,7 @@ Now, I'm going to present the tools in which it has been tested that this projec
 ---
 ### Installation
 First of all, you need to create your workspace and source it.  
-I will assi,e that your workspace is created in $HOME/catkin_ws and the source space is at $HOME/catkin_ws/src.  
+I will assume that your workspace is created in $HOME/catkin_ws and the source space is at $HOME/catkin_ws/src.  
 Now, to obtain the repository in your workspace, you need to run the following commands:
 ```
 >> cd $HOME/catkin_ws/src
