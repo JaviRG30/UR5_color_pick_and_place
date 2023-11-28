@@ -21,11 +21,11 @@ First of all, you need to create your workspace and source it.
 I will assume that your workspace is created in $HOME/catkin_ws and the source space is at $HOME/catkin_ws/src.  
 Now, to obtain the repository in your workspace, you need to run the following commands:
 ```
->> cd $HOME/catkin_ws/src
->> git clone https://github.com/JaviRG30/UR5_color_pick_and_place.git
->> cd ..
->> catkin_make
->> source $HOME/catkin_ws/devel/setup.bash
+cd $HOME/catkin_ws/src
+git clone https://github.com/JaviRG30/UR5_color_pick_and_place.git
+cd ..
+catkin_make
+source $HOME/catkin_ws/devel/setup.bash
 ```
 At this point, you have already obtained the project files in your workspace.
 
@@ -33,17 +33,17 @@ At this point, you have already obtained the project files in your workspace.
 ### Execution
 1) First, we will launch the GAZEBO simulation. To do this we will run the 'demo_gazebo.launch' file located into the 'ur5_gripper_moveit_config' MoveIt package. This file combines the UR5 robot model with the gripper model.
 ```
->> roslaunch ur5_gripper_moveit_config demo_gazebo.launch 
+roslaunch ur5_gripper_moveit_config demo_gazebo.launch 
 ```
 
 2) To run the program that classifies the objects by color, you need to run the following command. When you run this command, the robot should start performing the pick and place, organizing the cubes by their colors
 ```
->> rosrun ur5_simple_pick_and_place mov_fmpiec_colores.py 
+rosrun ur5_simple_pick_and_place mov_fmpiec_colores.py 
 ```
 
 3) In addition, with rhis repository we can also run a manual mode, wich allows us to move the robot with various operating modes.
 ```
->> rosrun ur5_simple_pick_and_place manual_controller.py
+rosrun ur5_simple_pick_and_place manual_controller.py
 ```
 
 ---
